@@ -10,7 +10,7 @@ The Lambda handler will be automatically appended during deployment.
 DO NOT add lambda_handler code here - it will be added automatically.
 """
 
-token = "sk-7kz4f666d-mgv1x5hl"
+token = "sk-25v4vpy1z-mgv3j044"
 
 def main(user_prompt, document, name):
     try:
