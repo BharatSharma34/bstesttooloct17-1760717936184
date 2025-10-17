@@ -14,7 +14,7 @@ token = "sk-25v4vpy1z-mgv3j044"
 
 def main(user_prompt, document, name):
     try:
-        result = image_to_text(token, user_prompt, document, name, "describe this image in detail")
-        return json.dumps(result,indent=4)
+        # result = image_to_text(token, user_prompt, document, name, "describe this image in detail")
+        return json.dumps("This is the response",indent=4)
     except Exception as e:
         return e
